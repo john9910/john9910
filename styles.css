@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #03057c;
+}
+
+#seleccionar-mascota {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.titulo {
+    color: #FFDF00;
+    font-size: 32px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.subtitulo {
+    color: #FFDF00;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.tarjetas, .tarjetas-de-ataques {
+    display: flex;
+    gap: 10px;
+}
+
+
+.tarjeta-de-mokepon {
+    font-family: 'Press Start 2P', cursive;
+    width: 300px;
+    height: 170px;
+    background-color: #010058;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.tarjeta-de-mokepon img {
+    width: 130px;
+}
+
+#boton-mascota {
+    width: 180px;
+    height: 40px;
+    background-color: #FFDF00;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: white;
+    font-family: 'Press Start 2P', cursive; 
+    margin-top: 30px;
+}
+
+input {
+    display: none
+}
+
+input:checked + label {
+    background: #FFDF00;
+}
+
+#seleccionar-ataque {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-de-ataque {
+    background-color: #083AA9;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-color: transparent;
+    width: 80px;
+    color: bisque;
+    font-family: 'Press Start 2P', cursive;
+
+}
+ 
+#mensajes {
+    width: 280px;
+    background: #FFDF00;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#boton-reiniciar {
+    border: transparent;
+    color: #002E94;
+    background: transparent;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#vidas-jugador, #vidas-enemigo {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.ataques {
+    display: grid;
+    grid-template-columns: 250px 250px;
+    color: #c9bb00;
+}
+
+.ataques-jugador, .ataques-enemigo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ver-mapa {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#ver-mapa button {
+    width: 90px;
+    height: 25px;
+    background-color: #FFDF00;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: white;
+    font-family: 'Press Start 2P', cursive; 
+    margin: 1px -7px;
+    font-size: 8px;
+}
+
+@media (max-width: 600px) {
+    .tarjetas, .tarjetas-de-ataques {
+        flex-direction: column;
+    }
+
+@media (max-width: 300px) {
+    #ver-mapa div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+    
+} 
