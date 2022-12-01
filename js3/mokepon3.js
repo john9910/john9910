@@ -48,7 +48,7 @@ let mapaBackground = new Image()
 mapaBackground.src = './assets/mokemap.png'
 let alturaQueBuscamos
 let anchoDelMapa = window.innerWidth - 20
-const anchoMaximoDelMapa = 350
+const anchoMaximoDelMapa = 500
 
 if (anchoDelMapa > anchoMaximoDelMapa) {
     anchoDelMapa = anchoMaximoDelMapa - 20
