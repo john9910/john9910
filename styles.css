@@ -87,9 +87,9 @@ input:checked + label {
 }
  
 #mensajes {
-    width: 280px;
+    width: 260px;
     background: #FFDF00;
-    padding: 20px;
+    padding: 10px;
     margin-top: 20px;
     border-radius: 20px;
     display: flex;
@@ -105,13 +105,13 @@ input:checked + label {
 }
 
 #vidas-jugador, #vidas-enemigo {
-    font-size: 20px;
+    font-size: 10px;
     margin-bottom: 0;
 }
 
 .ataques {
     display: grid;
-    grid-template-columns: 250px 250px;
+    grid-template-columns: 200px 200px;
     color: #c9bb00;
 }
 
