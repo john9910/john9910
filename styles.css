@@ -87,10 +87,9 @@ input:checked + label {
 }
  
 #mensajes {
-    width: 150px;
-    font-size: 10px;
+    width: 280px;
     background: #FFDF00;
-    padding: 10px;
+    padding: 20px;
     margin-top: 20px;
     border-radius: 20px;
     display: flex;
@@ -106,13 +105,13 @@ input:checked + label {
 }
 
 #vidas-jugador, #vidas-enemigo {
-    font-size: 10px;
+    font-size: 20px;
     margin-bottom: 0;
 }
 
 .ataques {
     display: grid;
-    grid-template-columns: 150px 150px;
+    grid-template-columns: 250px 250px;
     color: #c9bb00;
 }
 
@@ -145,7 +144,7 @@ input:checked + label {
         flex-direction: column;
     }
 
-@media (max-width: 500px) {
+@media (max-width: 300px) {
     #ver-mapa div {
         display: flex;
         align-items: center;
